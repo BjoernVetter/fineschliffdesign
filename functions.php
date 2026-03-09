@@ -1,12 +1,14 @@
 <?php
 
-function add_scripts_and_styles() {
+function feinschliff_styles() {
 
-    wp_enqueue_style(
-        'index',
-        get_stylesheet_directory_uri() . '/assets/css/index.css'
-    );
+wp_enqueue_style(
+    'main-style',
+    get_template_directory_uri() . '/assets/css/index.css',
+    array(),
+    filemtime(get_template_directory() . '/assets/css/index.css')
+);
 
 }
 
-add_action('wp_enqueue_scripts', 'add_scripts_and_styles');
+add_action('wp_enqueue_scripts', 'feinschliff_styles');
