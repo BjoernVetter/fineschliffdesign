@@ -1,5 +1,37 @@
 .hero {
-    background: green;
+    position: relative;
+    background: rgb(0, 0, 0);
     min-height: 400px;
     padding: 40px;
+}
+
+
+.hero-content {
+    position: absolute;
+
+    top: 20%;
+    left: 10%;
+    transform: translate(-50% -50);
+    color: white;
+
+
+
+
+}
+
+.hero-content h1 {
+    font-family: "BigShoulders";
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 90px;
+    margin: 0;
+    line-height: 0.9;
+}
+
+.hero-content p {
+    font-family: "Poppins";
+    font-weight: 300;
+    font-size: 30px;
+    margin: 0, 1;
+    /* line-height: 1.2; */
 }
