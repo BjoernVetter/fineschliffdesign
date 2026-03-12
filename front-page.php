@@ -13,6 +13,42 @@
     </div>
 </section>
 
+
+<section class="intro">
+
+    <div class="section-inner">
+
+        <h2 class="intro-title">
+            Design mit Blick fürs Detail
+        </h2>
+
+        <div class="intro-text">
+
+            <p>
+                Fineschliff Design steht für kreative Gestaltung mit Persönlichkeit.
+                Ich entwickle individuelle visuelle Konzepte für Marken, Unternehmen
+                und Projekte – von Logos und Flyern über Social Media Inhalte bis
+                hin zu modernen Webseiten.
+            </p>
+
+            <p>
+                Dabei geht es nicht nur um ein schönes Erscheinungsbild, sondern um
+                einen stimmigen Auftritt, der professionell wirkt und im Kopf bleibt.
+            </p>
+
+            <p>
+                Von der ersten Idee bis zur finalen Umsetzung entsteht jedes Projekt
+                mit einem hohen Anspruch an Ästhetik, Klarheit und Wiedererkennung.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
 <section class="about" id="about">
 
     <div class="section-inner about-inner">
