@@ -66,11 +66,12 @@
 }
 
 .social-media img {
-    width: 26px;
-    height: 26px;
+    width: 45px;
+    height: 45px;
     transition: transform 0.2s ease, filter 0.2s ease;
 }
 
 .social-media img:hover {
-    transform: scale(1.4);
+    transform: scale(1.5);
+
 }

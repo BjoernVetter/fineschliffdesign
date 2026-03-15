@@ -1,7 +1,10 @@
 <?php get_header(); ?>
 
+
+
+<div class="wrapper wide-wrapper">
 <section class="hero">
-    <img 
+    <img class="hero-image"
         src="<?php echo get_template_directory_uri(); ?>/assets/img/hero-image.webp" 
         alt="Feinschliff Design"
         
@@ -11,9 +14,15 @@
         <h1>Fineschliff Design</h1>
         <p>Videografie, Webdesign und Grafikdesign treffen hier aufeinander</p>
     </div>
-</section>
+    </section>
+</div>
 
 
+
+
+
+
+<div class="wrapper normal-wrapper">
 <section class="intro">
 
     <div class="section-inner">
@@ -46,9 +55,10 @@
     </div>
 
 </section>
+</div>
 
 
-
+<div class=" wrapper normal-wrapper">
 <section class="about" id="about">
 
     <div class="section-inner about-inner">
@@ -79,7 +89,11 @@
     </div>
 
 </section>
+</div>
 
+
+
+<div class="wrapper normal-wrapper">
 <section class="portfolio" id="portfolio">
     <div class="section-inner">
 
@@ -139,7 +153,11 @@
 
     </div>
 </section>
+</div>
 
+
+
+<div class="wrapper normal-wrapper">
 <section class="contact" id="contact">
     <div class="section-inner contact-inner">
 
@@ -159,5 +177,7 @@
 
     </div>
 </section>
+
+</div>
 
 <?php get_footer(); ?>

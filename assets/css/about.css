@@ -1,18 +1,26 @@
 .about {
-    padding: 80px 30px;
+    /* padding: 80px 30px; */
 }
 
 .about-inner {
-    max-width: 1200px;
-    margin: 0 auto;
 
+    margin: 0 auto;
     display: flex;
     align-items: center;
     gap: 60px;
+    flex-wrap: wrap;
 }
 
+
+
 .about-image {
-    width: 35%;
+    width: 100%;
+}
+
+@media (min-width: 700px) {
+    .about-image {
+        width: calc(40% - 30px);
+    }
 }
 
 .about-image img {
@@ -21,19 +29,26 @@
     border-radius: 20px;
 }
 
+
 .about-content {
-    width: 75%;
+    width: 100%;
+}
+
+@media (min-width: 700px) {
+    .about-content {
+        width: calc(60% - 30px);
+    }
 }
 
 .about-content h2 {
     margin: 0 0 20px 0;
-    font-size: 42px;
+    font-size: clamp(20px, 9vw, 910px);
     color: white;
 }
 
 .about-content p {
     margin: 0 0 16px 0;
-    font-size: 18px;
+    font-size: clamp(18px, 9vw, 25px);
     line-height: 1.6;
     color: rgba(255, 255, 255, 0.85);
 }

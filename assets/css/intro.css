@@ -3,17 +3,22 @@
 }
 
 .intro .section-inner {
-    max-width: 900px;
+
     margin: 0 auto;
 }
 
 .intro h2 {
-    font-size: 42px;
+    font-size: clamp(20px, 9vw, 110px);
     margin-bottom: 30px;
 }
 
 .intro p {
-    font-size: 18px;
+    font-size: clamp(18px, 9vw, 25px);
     line-height: 1.7;
     margin-bottom: 20px;
 }
+
+
+
+
+
