@@ -1,40 +1,60 @@
 @font-face {
-    font-family: "Poppins";
-    src: url("../fonts/poppins/poppins-medium.woff2") format("woff2");
+    font-family: "BigShoulders";
+    src: url("../fonts/BigShoulders/BigShoulders-ExtraLight.woff2") format("woff2");
     font-weight: 400;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: "Poppins";
-    src: url("../fonts/poppins/poppins-light.woff2") format("woff2");
+    font-family: "BigShoulders";
+    src: url("../fonts/BigShoulders/BigShoulders-Medium.woff2") format("woff2");
     font-weight: 500;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: "Poppins";
-    src: url("../fonts/poppins/Poppins-Thin.woff2") format("woff2");
+    font-family: "BigShoulders";
+    src: url("../fonts/BigShoulders/BigShoulders-Regular.woff2") format("woff2");
     font-weight: 700;
     font-style: normal;
     font-display: swap;
 }
 
 
+
+
 @font-face {
-    font-family: "BigShoulders";
-    src: url("../fonts/bigshoulders/BigShoulders_36pt-Bold.woff2") format("woff2");
+    font-family: "Sora";
+    src: url("../fonts/Sora/Sora-ExtraLight.woff2") format("woff2");
+    font-weight: 200;
+    font-style: light;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: "Sora";
+    src: url("../fonts/Sora/Sora-Light.woff2") format("woff2");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Sora";
+    src: url("../fonts/Sora/Sora-Medium.woff2") format("woff2");
     font-weight: 400;
-    font-style: normal;
+    font-style: Medium;
     font-display: swap;
 }
 
+
 @font-face {
-    font-family: "BigShoulders";
-    src: url("../fonts/bigshoulders/BigShoulders_60pt-SemiBold.woff2") format("woff2");
-    font-weight: 700;
+    font-family: "Sora";
+    src: url("../fonts/Sora/Sora-Regular.woff2") format("woff2");
+    font-weight: 500;
     font-style: normal;
     font-display: swap;
 }

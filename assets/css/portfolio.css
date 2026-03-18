@@ -1,5 +1,6 @@
 .portfolio {
     padding: 80px 30px;
+    text-align: center;
 }
 
 .portfolio-heading {
@@ -7,17 +8,11 @@
 }
 
 .portfolio-heading h2 {
-    margin: 0 0 16px 0;
-    font-size: 42px;
-    color: white;
+    /* platzhalter */
 }
 
 .portfolio-heading p {
-    margin: 0;
-    max-width: 700px;
-    font-size: 18px;
-    line-height: 1.6;
-    color: rgba(255, 255, 255, 0.85);
+    /* platzhalter */
 }
 
 .portfolio-wrapper {
@@ -27,11 +22,99 @@
 }
 
 .portfolio-item {
-    flex: 1 1 300px;
+    width: calc(33.333% - 20px);
     background: rgba(255, 255, 255, 0.04);
     border-radius: 12px;
     overflow: hidden;
+    position: relative;
+
+    background: linear-gradient(#fff2, transparent);
+    /* border: 1px solid rgb(255, 255, 255, 80); */
+    box-shadow: 0 25px rgba(0, 0, 0, 0.25);
+
+
+
+
 }
+
+.portfolio-item::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 2px;
+    border-radius: inherit;
+    background: conic-gradient(from var(--angle), #070707, rgb(255, 255, 255, 80), #070707);
+    z-index: -1;
+    pointer-events: none;
+
+    -webkit-mask:
+        linear-gradient(#000 0 0) content-box,
+        linear-gradient(#000 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+
+    animation: rotate 8s linear infinite;
+}
+
+.portfolio-item::after {
+    content: "";
+    position: absolute;
+    inset: -10px;
+    border-radius: inherit;
+
+    background: conic-gradient(from var(--angle),
+            rgba(217, 74, 90, 0.6),
+            transparent,
+            rgba(217, 74, 90, 0.6));
+
+    filter: blur(20px);
+    opacity: 0.6;
+
+    z-index: -1;
+    animation: rotate 8s linear infinite;
+}
+
+
+
+
+
+
+
+
+
+
+@keyframes rotate {
+    to {
+        --angle: 360deg;
+    }
+}
+
+@property --angle {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1100px) {
+    .portfolio-item {
+        width: 100%;
+    }
+}
+
 
 .portfolio-image img {
     width: 100%;
@@ -44,12 +127,13 @@
 
 .portfolio-content h3 {
     margin: 0 0 12px 0;
-    font-size: 24px;
-    color: white;
+    font-weight: 500;
+    font-size: clamp(18px, 8vw, 28px);
+
 }
 
 .portfolio-content p {
     margin: 0;
-    line-height: 1.6;
-    color: rgba(255, 255, 255, 0.8);
+    font-size: clamp(12px, 9vw, 16px);
+
 }

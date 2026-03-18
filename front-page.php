@@ -12,7 +12,7 @@
 
     <div class="hero-content">
         <h1>Fineschliff Design</h1>
-        <p>Videografie, Webdesign und Grafikdesign treffen hier aufeinander</p>
+        <p>Videografie, Webdesign und Grafikdesign </br> treffen hier aufeinander</p>
     </div>
     </section>
 </div>
@@ -23,40 +23,35 @@
 
 
 <div class="wrapper normal-wrapper">
-<section class="intro">
+    <section class="intro">
+        <div class="section-inner">
+            <div class="intro-card">
+                <h2 class="intro-title">
+                    Design mit Blick fürs Detail
+                </h2>
 
-    <div class="section-inner">
+                <div class="intro-text">
+                    <p>
+                        Fineschliff Design steht für kreative Gestaltung mit Persönlichkeit.
+                        Ich entwickle individuelle visuelle Konzepte für Marken, Unternehmen
+                        und Projekte – von Logos und Flyern über Social Media Inhalte bis
+                        hin zu modernen Webseiten.
+                    </p>
 
-        <h2 class="intro-title">
-            Design mit Blick fürs Detail
-        </h2>
+                    <p>
+                        Dabei geht es nicht nur um ein schönes Erscheinungsbild, sondern um
+                        einen stimmigen Auftritt, der professionell wirkt und im Kopf bleibt.
+                    </p>
 
-        <div class="intro-text">
-
-            <p>
-                Fineschliff Design steht für kreative Gestaltung mit Persönlichkeit.
-                Ich entwickle individuelle visuelle Konzepte für Marken, Unternehmen
-                und Projekte – von Logos und Flyern über Social Media Inhalte bis
-                hin zu modernen Webseiten.
-            </p>
-
-            <p>
-                Dabei geht es nicht nur um ein schönes Erscheinungsbild, sondern um
-                einen stimmigen Auftritt, der professionell wirkt und im Kopf bleibt.
-            </p>
-
-            <p>
-                Von der ersten Idee bis zur finalen Umsetzung entsteht jedes Projekt
-                mit einem hohen Anspruch an Ästhetik, Klarheit und Wiedererkennung.
-            </p>
-
+                    <p>
+                        Von der ersten Idee bis zur finalen Umsetzung entsteht jedes Projekt
+                        mit einem hohen Anspruch an Ästhetik, Klarheit und Wiedererkennung.
+                    </p>
+                </div>
+            </div>
         </div>
-
-    </div>
-
-</section>
+    </section>
 </div>
-
 
 <div class=" wrapper normal-wrapper">
 <section class="about" id="about">
@@ -73,7 +68,6 @@
 
         <div class="about-content">
             <h2>Über mich</h2>
-
             <p>
                 Ich bin Björn und hinter Fineschliff Design steckt meine Leidenschaft
                 für Videografie, Webdesign und Grafikdesign.

@@ -1,5 +1,6 @@
 .contact {
     padding: 80px 30px;
+    text-align: center;
 }
 
 .contact-inner {
@@ -12,28 +13,21 @@
 }
 
 .contact-heading h2 {
-    margin: 0 0 16px 0;
-    font-size: 42px;
-    color: white;
+    text-align: center;
 }
 
 .contact-heading p {
-    margin: 0;
-    max-width: 700px;
-    font-size: 18px;
-    line-height: 1.6;
-    color: rgba(255, 255, 255, 0.85);
+    /* platzhalter */
 }
 
 .contact-box {
     padding: 30px;
-    background: rgba(255, 255, 255, 0.04);
+    /* background: rgba(255, 255, 255, 0.04); */
     border-radius: 12px;
 }
 
 .contact-box p {
-    margin: 0 0 12px 0;
-    color: rgba(255, 255, 255, 0.85);
+    /* platzhalter */
 }
 
 .contact-button {

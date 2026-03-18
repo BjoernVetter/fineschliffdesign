@@ -3,8 +3,20 @@
     min-height: 85vh;
     overflow: hidden;
     padding: 0;
+    /* border-radius: 2px; */
+
+    border: 1px solid rgb(255, 255, 255, 80);
+    box-shadow: 0 25px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
 
 }
+
+
+
+
+
+
+
 
 @media (max-width: 700px) {
     .hero {
@@ -25,7 +37,7 @@
     .hero-image {
         min-height: 78vh;
         object-fit: cover;
-        object-position: 78% center;
+        object-position: 75% center;
         transform: scale(1.01);
     }
 }
@@ -43,8 +55,8 @@
     .hero-image {
         min-height: 78vh;
         object-fit: cover;
-        object-position: 73% center;
-        transform: scale(1.01);
+        object-position: 85% 5%;
+        transform: scale(1.0);
     }
 }
 
@@ -52,7 +64,7 @@
 .hero-content {
     position: absolute;
     top: 25%;
-    left: 40px;
+    left: 80px;
     right: auto;
     transform: none;
     color: white;
@@ -71,37 +83,39 @@
 
 .hero-content h1 {
     font-family: "BigShoulders";
-    font-weight: 500;
+    font-weight: 400;
     letter-spacing: 2px;
-    font-size: clamp(25px, 6vw, 300px);
-    margin: 0 0 0 0px;
-    line-height: 0.9;
+    font-size: clamp(36px, 7vw, 260px);
+    margin: 60px 0 0 0px;
+    line-height: 0.95;
 }
 
 @media (max-width: 700px) {
     .hero-content h1 {
-        font-size: clamp(20px, 9vw, 45px);
-        top: 20px;
+        /* font-size: clamp(20px, 9vw, 45px); */
+        top: 50px;
         left: 0px;
-        max-width: 650px;
+        max-width: 500px;
 
     }
 }
 
 
 .hero-content p {
-    font-family: "Poppins";
-    font-size: clamp(2px, 1.5vw, 40px);
+    /* font-size: clamp(2px, 1.5vw, 40px); */
+    font-weight: 00;
     margin-top: 10px;
     line-height: 1.2;
+    text-wrap: balance;
+
 }
 
 @media (max-width: 700px) {
     .hero-content p {
-        font-size: clamp(15px, 2vw, 18px);
-        top: 250px;
+        /* font-size: clamp(15px, 2vw, 18px); */
+        top: 10px;
         left: 0px;
-        max-width: 300px;
+        max-width: 200px;
 
     }
 
