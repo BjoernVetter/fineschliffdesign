@@ -16,25 +16,27 @@
     text-align: center;
 }
 
-.contact-heading p {
-    /* platzhalter */
-}
+
 
 .contact-box {
     padding: 30px;
-    /* background: rgba(255, 255, 255, 0.04); */
     border-radius: 12px;
 }
 
-.contact-box p {
-    /* platzhalter */
-}
+
 
 .contact-button {
     display: inline-block;
     margin-top: 20px;
     padding: 12px 24px;
-    background: rgb(244, 7, 7);
+    background: #d94a5b97;
     color: white;
     border-radius: 8px;
+    transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+
+
+.contact-button:hover {
+    transform: scale(1.2);
 }
