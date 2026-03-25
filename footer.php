@@ -2,19 +2,32 @@
 
 <footer class="site-footer">
     <div class="footer-inner">
+        <div class="footer-center">
 
         <nav class="footer-navigation">
+
+
+    
+
             <ul>
                 <li><a href="/impressum">Impressum</a></li>
                 <li><a href="/datenschutz">Datenschutz</a></li>
             </ul>
         </nav>
 
-        <!-- <p class="footer-copyright">
-            © <?php echo date("Y"); ?> – Feinschliff Design
-        </p> -->
 
-            
+
+
+
+
+
+
+
+        <p class="footer-copyright">
+            © <?php echo date("Y"); ?> – Fineschliff Design
+        </p>
+
+           </div>
 
 
 

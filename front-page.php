@@ -97,8 +97,15 @@
 
 
 <section class="portfolio">
-
     <div class="wrapper normal-wrapper">
+
+        <div class="portfolio-heading">
+            <h2>Portfolio</h2>
+            <p>
+                Eine Auswahl an Projekten aus den Bereichen Webdesign,
+                Videografie und Grafikdesign.
+            </p>
+        </div>
 
         <div class="portfolio-wrapper">
 
@@ -109,51 +116,57 @@
                 rel="noopener noreferrer"
             >
                 <div class="portfolio-image">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/3promille.webp">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/3promille.webp" alt="3 Promille">
                 </div>
 
                 <div class="portfolio-content">
                     <h3>3 Promille – Webprojekt & Branding</h3>
-                    <p>Ganzheitliche Umsetzung einer Event-Webseite inklusive Logo-Design, UI/UX-Konzept und Entwicklung.
+                    <p>
+                        Ganzheitliche Umsetzung einer Event-Webseite inklusive Logo-Design, UI/UX-Konzept und Entwicklung.
                         Optimiert für mobile Nutzung und direkten Zugriff über QR-Code.
-                        Kombination aus Branding, Design und funktionaler Webentwicklung..</p>
+                        Kombination aus Branding, Design und funktionaler Webentwicklung.
+                    </p>
                 </div>
             </a>
 
-            <a class="portfolio-item">
+            <article class="portfolio-item">
                 <div class="portfolio-image">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos.webp">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos.webp" alt="Branding & Logoentwicklung">
                 </div>
 
                 <div class="portfolio-content">
                     <h3>Branding & Logoentwicklung</h3>
-                    <p>Entwicklung und Gestaltung mehrerer Markenauftritte inklusive Logo-Design für verschiedene Einsatzbereiche.
-                    Ganzheitlicher Prozess von der Konzeptidee über Typografie und Farbwelt bis hin zur finalen Umsetzung.
-                    Ziel: klare Markenidentität und hoher Wiedererkennungswert.</p>
+                    <p>
+                        Entwicklung und Gestaltung mehrerer Markenauftritte inklusive Logo-Design für verschiedene Einsatzbereiche.
+                        Ganzheitlicher Prozess von der Konzeptidee über Typografie und Farbwelt bis hin zur finalen Umsetzung.
+                        Ziel: klare Markenidentität und hoher Wiedererkennungswert.
+                    </p>
                 </div>
-            </a>
+            </article>
 
             <a 
-                href="http://www.youtube.com/@Fineschliffdesign" 
+                href="https://youtu.be/fN8OnjiKE_I" 
                 class="portfolio-item"
                 target="_blank"
+                rel="noopener noreferrer"
             >
                 <div class="portfolio-image">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/das_letzte_gewalzte_rohr.webp">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/das_letzte_gewalzte_rohr.webp" alt="Dokumentarfilm – Vallourec">
                 </div>
 
                 <div class="portfolio-content">
                     <h3>Dokumentarfilm – Vallourec</h3>
-                    <p>Verantwortlich für Schnitt und Postproduktion einer Dokumentation über die Werkschließung der Vallourec-Werke.
-                    Eigenständige Aufbereitung des Materials bis zur finalen Kinofassung.
-                        Fokus auf emotionales Storytelling und authentische Bildsprache.</p>
+                    <p>
+                        Verantwortlich für Schnitt und Postproduktion einer Dokumentation über die Werkschließung der Vallourec-Werke.
+                        Eigenständige Aufbereitung des Materials bis zur finalen Kinofassung.
+                        Fokus auf emotionales Storytelling und authentische Bildsprache.
+                    </p>
                 </div>
             </a>
 
         </div>
 
     </div>
-
 </section>
 
 
@@ -188,88 +201,6 @@
 
 
 
- <!-- <div class="portfolio-wrapper">                
-            <article class="portfolio-item portfolio-item--link">
-    <a 
-        href="https://3promille.de" 
-        class="portfolio-link"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="3 Promille – Webprojekt & Branding öffnen"
-    ></a>
-                <div class="portfolio-image">
-                    <img 
-                        src="<?php echo get_template_directory_uri(); ?>/assets/img/3promille.webp" 
-                        alt="Projekt 1"
-                    >
-                </div>
-                       
-                <div class="portfolio-content">
-                    <h3>3 Promille – Webprojekt & Branding</h3>
-                    <p>Ganzheitliche Umsetzung einer Event-Webseite inklusive Logo-Design, UI/UX-Konzept und Entwicklung.
-                        Optimiert für mobile Nutzung und direkten Zugriff über QR-Code.
-                        Kombination aus Branding, Design und funktionaler Webentwicklung.</p>
-                </div>
-            </article> 
-
-
-
-
-
-
-
-
-
-
-            <article class="portfolio-item">
-                <div class="portfolio-image">
-                    <img 
-                        src="<?php echo get_template_directory_uri(); ?>/assets/img/logos.webp" 
-                        alt="Projekt 2"
-                    >
-                </div>
-
-                <div class="portfolio-content">
-                    <h3>Branding & Logoentwicklung</h3>
-                    <p>Entwicklung und Gestaltung mehrerer Markenauftritte inklusive Logo-Design für verschiedene Einsatzbereiche.
-                    Ganzheitlicher Prozess von der Konzeptidee über Typografie und Farbwelt bis hin zur finalen Umsetzung.
-                    Ziel: klare Markenidentität und hoher Wiedererkennungswert.</p>
-                </div>
-            </article>
-
-                      <article class="portfolio-item portfolio-item--link">
-                         <a 
-                                   href="http://www.youtube.com/@Fineschliffdesign" 
-                                  class="portfolio-link"
-                                  target="_blank"
-                                  rel="noopener noreferrer"
-                                  aria-label="3 Promille – Webprojekt & Branding öffnen"
-                      ></a>
-
-
-
-
-
-                <div class="portfolio-image">
-                    <img 
-                        src="<?php echo get_template_directory_uri(); ?>/assets/img/das_letzte_gewalzte_rohr.webp" 
-                        alt="Projekt 3"
-                    >
-                </div>
-
-                <div class="portfolio-content">
-                    <h3>Dokumentarfilm – Vallourec Deutschland</h3>
-                    <p>Verantwortlich für Schnitt und Postproduktion einer Dokumentation über die Werkschließung der Vallourec-Werke.
-                    Eigenständige Aufbereitung des Materials bis zur finalen Kinofassung.
-                        Fokus auf emotionales Storytelling und authentische Bildsprache.</p>
-                </div>
-            </article>
-
-        </div>
-
-    </div>
-    </div>
-</section> -->
 
 
 
