@@ -2,28 +2,30 @@
 
 
 
-<div class="wrapper wide-wrapper">
+
 <section class="hero">
-    <img class="hero-image"
-        src="<?php echo get_template_directory_uri(); ?>/assets/img/hero-image.webp" 
-        alt="Feinschliff Design"
-        
-    >
+    <div class="wrapper wide-wrapper">
+        <div class="hero-card">
+            <img
+                class="hero-image"
+                src="<?php echo get_template_directory_uri(); ?>/assets/img/hero-image.webp"
+                alt="Fineschliff Design"
+            >
 
-    <div class="hero-content">
-        <h1>Fineschliff Design</h1>
-        <p>Videografie, Webdesign und Grafikdesign </br> treffen hier aufeinander</p>
+            <div class="hero-content">
+                <h1>Fineschliff Design</h1>
+                <p>Videografie, Webdesign und Grafikdesign <br> treffen hier aufeinander</p>
+            </div>
+        </div>
     </div>
-    </section>
-</div>
+</section>
 
 
 
 
 
-
-<div class="wrapper normal-wrapper">
-    <section class="intro">
+<section class="intro">
+    <div class="wrapper normal-wrapper">
         <div class="section-inner">
             <div class="intro-card">
                 <h2 class="intro-title">
@@ -50,12 +52,15 @@
                 </div>
             </div>
         </div>
-    </section>
-</div>
+    </div>
+</section>
 
-<div class=" wrapper normal-wrapper">
-<section class="about" id="about">
 
+
+
+ <section class="about" id="about">
+   
+ <div class=" wrapper normal-wrapper">
     <div class="section-inner about-inner">
 
         <div class="about-image">
@@ -79,29 +84,111 @@
             </p>
 
         </div>
+    </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+<section class="portfolio">
+
+    <div class="wrapper normal-wrapper">
+
+        <div class="portfolio-wrapper">
+
+            <a 
+                href="https://3promille.de" 
+                class="portfolio-item"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                <div class="portfolio-image">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/3promille.webp">
+                </div>
+
+                <div class="portfolio-content">
+                    <h3>3 Promille – Webprojekt & Branding</h3>
+                    <p>Ganzheitliche Umsetzung einer Event-Webseite inklusive Logo-Design, UI/UX-Konzept und Entwicklung.
+                        Optimiert für mobile Nutzung und direkten Zugriff über QR-Code.
+                        Kombination aus Branding, Design und funktionaler Webentwicklung..</p>
+                </div>
+            </a>
+
+            <a class="portfolio-item">
+                <div class="portfolio-image">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos.webp">
+                </div>
+
+                <div class="portfolio-content">
+                    <h3>Branding & Logoentwicklung</h3>
+                    <p>Entwicklung und Gestaltung mehrerer Markenauftritte inklusive Logo-Design für verschiedene Einsatzbereiche.
+                    Ganzheitlicher Prozess von der Konzeptidee über Typografie und Farbwelt bis hin zur finalen Umsetzung.
+                    Ziel: klare Markenidentität und hoher Wiedererkennungswert.</p>
+                </div>
+            </a>
+
+            <a 
+                href="http://www.youtube.com/@Fineschliffdesign" 
+                class="portfolio-item"
+                target="_blank"
+            >
+                <div class="portfolio-image">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/das_letzte_gewalzte_rohr.webp">
+                </div>
+
+                <div class="portfolio-content">
+                    <h3>Dokumentarfilm – Vallourec</h3>
+                    <p>Verantwortlich für Schnitt und Postproduktion einer Dokumentation über die Werkschließung der Vallourec-Werke.
+                    Eigenständige Aufbereitung des Materials bis zur finalen Kinofassung.
+                        Fokus auf emotionales Storytelling und authentische Bildsprache.</p>
+                </div>
+            </a>
+
+        </div>
 
     </div>
 
 </section>
-</div>
 
 
 
-<div class="wrapper normal-wrapper">
-<section class="portfolio" id="portfolio">
-    <div class="section-inner">
 
-        <div class="portfolio-heading">
-            <h2>Portfolio</h2>
-            <p>
-                Eine Auswahl an Projekten aus den Bereichen Webdesign,
-                Videografie und Grafikdesign.
-            </p>
-        </div> 
-        
-       
 
-        <div class="portfolio-wrapper">                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!-- <div class="portfolio-wrapper">                
             <article class="portfolio-item portfolio-item--link">
     <a 
         href="https://3promille.de" 
@@ -123,7 +210,16 @@
                         Optimiert für mobile Nutzung und direkten Zugriff über QR-Code.
                         Kombination aus Branding, Design und funktionaler Webentwicklung.</p>
                 </div>
-            </article>
+            </article> 
+
+
+
+
+
+
+
+
+
 
             <article class="portfolio-item">
                 <div class="portfolio-image">
@@ -172,13 +268,16 @@
         </div>
 
     </div>
-</section>
-</div>
+    </div>
+</section> -->
 
 
 
-<div class="wrapper normal-wrapper">
+
+
 <section class="contact" id="contact">
+<div class="wrapper normal-wrapper">
+
     <div class="section-inner contact-inner">
 
         <div class="contact-heading">
@@ -196,8 +295,10 @@
         </div>
 
     </div>
+
+    </div>
 </section>
 
-</div>
+
 
 <?php get_footer(); ?>

@@ -62,7 +62,6 @@
 @media (hover: hover) and (pointer: fine) {
     .footer-navigation a:hover {
         color: #ffffff;
-        border: 2px solid #d94a5b97;
         border-radius: 20px;
         background: #d94a5b97;
         transform: scale(1.2);

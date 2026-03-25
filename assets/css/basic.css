@@ -1,9 +1,7 @@
 @import url("./header.css");
 @import url("./footer.css");
 
-* {
-    box-sizing: border-box;
-}
+
 
 html {
     height: 100%;
@@ -17,23 +15,9 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-
-    /* background: #260808eb; */
     background: #0f222f;
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -93,6 +77,8 @@ main {
     position: relative;
     padding: 30px 30px;
 
+
+
 }
 
 
@@ -109,6 +95,6 @@ main {
 @media (max-width: 700px) {
     .wide-wrapper {
 
-        padding: 0;
+        padding: 0 10px;
     }
 }
