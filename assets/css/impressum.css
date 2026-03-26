@@ -39,7 +39,6 @@
 
 .legal-content p {
     font-size: clamp(14px, 2vw, 18px);
-    line-height: 1.6;
     margin: 0 0 15px 0;
 }
 

@@ -1,3 +1,4 @@
+
 .about {
     position: relative;
 }
@@ -25,54 +26,40 @@
     animation: rotate 12s linear infinite;
 }
 
-
-
 .about-inner {
-
-    margin: 0 auto;
     display: flex;
     align-items: center;
     gap: 60px;
     flex-wrap: wrap;
 }
 
-
-
+/* Desktop */
 .about-image {
-    width: 90%;
+    width: calc(40% - 30px);
 }
 
-@media (min-width: 700px) {
-    .about-image {
-        width: calc(40% - 30px);
+.about-content {
+    width: calc(60% - 30px);
+}
+
+
+@media (max-width: 700px) {
+
+    .about-image,
+    .about-content {
+        width: 100%;
     }
 }
 
 .about-image img {
     width: 100%;
-    margin: 0 auto;
     display: block;
+    margin: 10px auto;
     border-radius: 40px;
-    margin: 10px;
     border: 1px solid rgba(255, 255, 255, 0.8);
-
 }
 
-
-.about-content {
-    width: 100%;
-
-
-}
-
-@media (min-width: 700px) {
-    .about-content {
-        width: calc(60% - 30px);
-    }
-}
-
-
-.about-content p,
-.about-content h2 {
+.about-content h2,
+.about-content p {
     padding: 10px;
 }

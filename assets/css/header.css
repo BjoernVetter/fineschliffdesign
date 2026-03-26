@@ -1,8 +1,7 @@
 .logo img {
     display: block;
     width: 30px;
-    height: auto;
-    transition: transform 0.2s ease, filter 0.2s ease;
+    transition: transform 0.2s ease;
 }
 
 .logo img:hover {
@@ -35,25 +34,26 @@
     position: relative;
 }
 
+
+
+
 .logo a {
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: bold;
+    display: block;
 }
+
 
 .main-navigation ul {
     display: flex;
     gap: 25px;
-    list-style: none;
     margin: 0;
     padding: 0;
+    list-style: none;
 }
 
 .main-navigation a {
     color: rgba(255, 255, 255, 0.853);
     font-size: 15px;
-    font-family: "sora";
+    font-family: "Sora";
     font-weight: 300;
     display: inline-block;
     padding: 8px 14px;
@@ -63,8 +63,7 @@
 
 @media (hover: hover) and (pointer: fine) {
     .main-navigation a:hover {
-        color: rgba(255, 255, 255, 0.853);
-        transform: scale(1.2);
+        transform: scale(1.1);
         background: #d94a5b97;
         box-shadow: 0 8px 30px rgba(0, 0, 0, 0.18);
         backdrop-filter: blur(14px);
@@ -91,8 +90,9 @@
     width: 32px;
     height: 32px;
     display: block;
-    transition: opacity 0.25s ease;
 }
+
+/* MOBILE */
 
 @media (max-width: 768px) {
     .hamburger {
@@ -100,49 +100,41 @@
     }
 
     .main-navigation {
-        opacity: 0;
-        max-height: 0;
-        transition: 1s ease-in-out;
-        z-index: -1;
         position: absolute;
         top: 100%;
         left: 0;
         width: 100%;
         overflow: hidden;
+
+        opacity: 0;
+        max-height: 0;
+        z-index: -1;
+
         transition: 0.3s ease-in-out;
 
-
-
-        background: rgba(5, 5, 5, 0.693);
+        background: rgba(5, 5, 5, 0.774);
         box-shadow: 0 8px 30px rgba(0, 0, 0, 0.18);
-        backdrop-filter: blur(100px);
+        backdrop-filter: blur(14px);
         -webkit-backdrop-filter: blur(100px);
         border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-
-
     }
 
     .main-navigation.active {
         max-height: 500px;
         opacity: 1;
         z-index: 1;
-        transition: 0.3s ease-in-out;
-
-
     }
 
     .main-navigation ul {
-        display: flex;
         flex-direction: column;
         align-items: center;
         gap: 16px;
-        margin: 0;
         padding: 20px 0 0 0;
-        list-style: none;
     }
 
     .main-navigation a {
         display: block;
-        color: #919191f1;
+        color: rgba(255, 255, 255, 0.853);
+
     }
 }

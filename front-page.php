@@ -96,6 +96,7 @@
 
 
 
+
 <section class="portfolio">
     <div class="wrapper normal-wrapper">
 
@@ -107,27 +108,14 @@
             </p>
         </div>
 
+
+
+
+        
+
         <div class="portfolio-wrapper">
 
-            <a 
-                href="https://3promille.de" 
-                class="portfolio-item"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-                <div class="portfolio-image">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/3promille.webp" alt="3 Promille">
-                </div>
-
-                <div class="portfolio-content">
-                    <h3>3 Promille – Webprojekt & Branding</h3>
-                    <p>
-                        Ganzheitliche Umsetzung einer Event-Webseite inklusive Logo-Design, UI/UX-Konzept und Entwicklung.
-                        Optimiert für mobile Nutzung und direkten Zugriff über QR-Code.
-                        Kombination aus Branding, Design und funktionaler Webentwicklung.
-                    </p>
-                </div>
-            </a>
+        
 
             <article class="portfolio-item">
                 <div class="portfolio-image">
@@ -163,6 +151,43 @@
                     </p>
                 </div>
             </a>
+
+
+ <a 
+                href="https://3promille.de" 
+                class="portfolio-item"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                <div class="portfolio-image">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/3promille.webp" alt="3 Promille">
+                </div>
+
+                <div class="portfolio-content">
+                    <h3>3 Promille – Webprojekt & Branding</h3>
+                    <p>
+                        Ganzheitliche Umsetzung einer Event-Webseite inklusive Logo-Design, UI/UX-Konzept und Entwicklung.
+                        Optimiert für mobile Nutzung und direkten Zugriff über QR-Code.
+                        Kombination aus Branding, Design und funktionaler Webentwicklung.
+                    </p>
+                </div>
+            </a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         </div>
 
@@ -220,8 +245,8 @@
         </div>
 
         <div class="contact-box">
-            <p><strong>E-Mail:</strong>meineEmailadresse</p>
-            <p><strong>Instagram:</strong> @deinprofil</p>
+            <!-- <p><strong>E-Mail:</strong>meineEmailadresse</p>
+            <p><strong>Instagram:</strong> @deinprofil</p> -->
             <a href="mailto:info@fineschliffdesign.de" class="contact-button">Jetzt Kontakt aufnehmen</a>
         </div>
 
