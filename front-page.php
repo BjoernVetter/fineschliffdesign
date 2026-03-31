@@ -27,7 +27,7 @@
 <section class="intro">
     <div class="wrapper normal-wrapper">
         <div class="section-inner">
-            <div class="intro-card">
+            <div class="intro-card reveal-on-scroll">
                 <h2 class="intro-title">
                     Design mit Blick fürs Detail
                 </h2>
@@ -63,7 +63,7 @@
  <div class=" wrapper normal-wrapper">
     <div class="section-inner about-inner">
 
-        <div class="about-image">
+        <div class="about-image reveal-on-scroll ">
             <img 
                 src="<?php echo get_template_directory_uri(); ?>/assets/img/about.webp"
                 alt="Björn – Fineschliff Design"
@@ -71,7 +71,7 @@
             >
         </div>
 
-        <div class="about-content">
+        <div class="about-content reveal-on-scroll ">
             <h2>Über mich</h2>
             <p>
                 Ich bin Björn und hinter Fineschliff Design steckt meine Leidenschaft
@@ -100,7 +100,7 @@
 <section class="portfolio">
     <div class="wrapper normal-wrapper">
 
-        <div class="portfolio-heading">
+        <div class="portfolio-heading reveal-on-scroll ">
             <h2>Portfolio</h2>
             <p>
                 Eine Auswahl an Projekten aus den Bereichen Webdesign,
@@ -117,7 +117,7 @@
 
         
 
-            <article class="portfolio-item">
+            <article class="portfolio-item reveal-on-scroll ">
                 <div class="portfolio-image">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos.webp" alt="Branding & Logoentwicklung">
                 </div>
@@ -134,7 +134,7 @@
 
             <a 
                 href="https://youtu.be/fN8OnjiKE_I" 
-                class="portfolio-item"
+                class="portfolio-item reveal-on-scroll"
                 target="_blank"
                 rel="noopener noreferrer"
             >
@@ -155,7 +155,7 @@
 
  <a 
                 href="https://3promille.de" 
-                class="portfolio-item"
+                class="portfolio-item reveal-on-scroll "
                 target="_blank"
                 rel="noopener noreferrer"
             >
@@ -232,7 +232,7 @@
 
 
 <section class="contact" id="contact">
-<div class="wrapper normal-wrapper">
+<div class="wrapper normal-wrapper reveal-on-scroll ">
 
     <div class="section-inner contact-inner">
 

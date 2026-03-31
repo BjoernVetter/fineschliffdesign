@@ -21,3 +21,22 @@ function feinschliff_scripts() {
     );
 }
 add_action('wp_enqueue_scripts', 'feinschliff_scripts');
+
+
+function feinschliff_main_script() {
+    wp_enqueue_script(
+        'main-script',
+        get_template_directory_uri() . '/assets/js/main.js',
+        array(),
+        filemtime(get_template_directory() . '/assets/js/main.js'),
+        true
+    );
+}
+add_action('wp_enqueue_scripts', 'feinschliff_main_script');
+
+
+
+
+
+
+
