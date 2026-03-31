@@ -76,10 +76,12 @@ main {
     margin: 0 auto;
     position: relative;
     padding: 30px 30px;
-
-
-
 }
+
+
+
+
+
 
 
 .normal-wrapper {
@@ -95,6 +97,6 @@ main {
 @media (max-width: 700px) {
     .wide-wrapper {
 
-        padding: 0 10px;
+        padding: 0;
     }
 }

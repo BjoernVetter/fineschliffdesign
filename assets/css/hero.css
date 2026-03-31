@@ -20,8 +20,13 @@
 
 @media (max-width: 700px) {
     .hero-card {
-        min-height: 78vh;
         padding: 0;
+        margin-top: 0;
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
+
+
     }
 }
 
@@ -31,7 +36,7 @@
 
 .hero-image {
     width: 100%;
-    height: 85vh;
+    height: 100%;
     object-fit: cover;
     object-position: center center;
     display: block;
@@ -61,6 +66,8 @@
         object-fit: cover;
         object-position: 85% 5%;
         transform: scale(1.0);
+
+
     }
 }
 

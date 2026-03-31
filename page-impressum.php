@@ -13,7 +13,7 @@
                 <h2>Angaben gemäß § 5 TMG</h2>
                 <p>
                     Björn Vetter<br>
-                    Feinschliff Design<br>
+                    Fineschliff Design<br>
                     Engelbertstraße 13<br>
                     40233 Düsseldorf
                 </p>

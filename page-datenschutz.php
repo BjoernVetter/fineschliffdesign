@@ -19,7 +19,7 @@
                 <h2>2. Verantwortliche Stelle</h2>
                 <p>
                     Björn Vetter<br>
-                    Feinschliff Design<br>
+                    Fineschliff Design<br>
                     Engelbertstraße 13<br>
                     40233 Düsseldorf<br>
                     E-Mail: <a href="mailto:info@fineschliffdesign.de">info@fineschliffdesign.de</a>
