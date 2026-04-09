@@ -245,8 +245,8 @@
         </div>
 
         <div class="contact-box">
-            <!-- <p><strong>E-Mail:</strong>meineEmailadresse</p>
-            <p><strong>Instagram:</strong> @deinprofil</p> -->
+            <p><strong>E-Mail:</strong>meineEmailadresse</p>
+            <p><strong>Instagram:</strong> @deinprofil</p>
             <a href="mailto:info@fineschliffdesign.de" class="contact-button">Jetzt Kontakt aufnehmen</a>
         </div>
 
