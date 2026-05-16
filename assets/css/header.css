@@ -42,7 +42,7 @@
 }
 
 
-.main-navigation ul {
+.menu-header-container ul {
     display: flex;
     gap: 25px;
     margin: 0;
@@ -50,7 +50,7 @@
     list-style: none;
 }
 
-.main-navigation a {
+.menu-header-container a {
     color: rgba(255, 255, 255, 0.853);
     font-size: 15px;
     font-family: "Sora";
@@ -62,7 +62,7 @@
 }
 
 @media (hover: hover) and (pointer: fine) {
-    .main-navigation a:hover {
+    .menu-header-container a:hover {
         transform: scale(1.1);
         background: #d94a5b97;
         box-shadow: 0 8px 30px rgba(0, 0, 0, 0.18);
@@ -71,7 +71,7 @@
     }
 }
 
-.main-navigation a:active {
+.menu-header-container a:active {
     transform: scale(0.97);
     background: #d94a5b97;
     color: #919191f1;
@@ -99,7 +99,7 @@
         display: block;
     }
 
-    .main-navigation {
+    .menu-header-container {
         position: absolute;
         top: 100%;
         left: 0;
@@ -119,20 +119,20 @@
         border-bottom: 1px solid rgba(255, 255, 255, 0.08);
     }
 
-    .main-navigation.active {
+    .menu-header-container.active {
         max-height: 500px;
         opacity: 1;
         z-index: 1;
     }
 
-    .main-navigation ul {
+    .menu-header-container ul {
         flex-direction: column;
         align-items: center;
         gap: 16px;
         padding: 20px 0 0 0;
     }
 
-    .main-navigation a {
+    .menu-header-container a {
         display: block;
         color: rgba(255, 255, 255, 0.853);
 

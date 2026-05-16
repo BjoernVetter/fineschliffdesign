@@ -10,30 +10,26 @@
 
 <header class="site-header">
     <div class="header-inner">
-     <div class="logo">
-    <a href="/">
-        <img 
-        src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.svg" 
-        alt="Fineschliff Design Logo"
-        >
-    </a>
-</div>
+        <div class="logo">
+            <a href="/">
+                <img
+                        src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.svg"
+                        alt="Fineschliff Design Logo"
+                >
+            </a>
+        </div>
 
         <button class="hamburger" aria-label="Menü öffnen">
-             <img
-        class="hamburger-icon"
-        src="<?php echo get_template_directory_uri(); ?>/assets/icons/hamburger.svg"
-        alt="Menü öffnen"
-                 >
-            </button>
-
-        <nav class="main-navigation">
-            <ul>
-                <li><a href="#about">Über mich</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Kontakt</a></li>
-            </ul>
-        </nav>
+            <img
+                    class="hamburger-icon"
+                    src="<?php echo get_template_directory_uri(); ?>/assets/icons/hamburger.svg"
+                    alt="Menü öffnen"
+            >
+        </button>
+        <?php wp_nav_menu([
+                'theme_location' => 'header',
+        ]);
+        ?>
     </div>
 </header>
 

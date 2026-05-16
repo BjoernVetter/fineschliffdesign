@@ -1,5 +1,5 @@
 const hamburger = document.querySelector(".hamburger");
-const nav = document.querySelector(".main-navigation");
+const nav = document.querySelector(".menu-header-container");
 const hamburgerIcon = document.querySelector(".hamburger-icon");
 
 if (hamburger && nav && hamburgerIcon) {

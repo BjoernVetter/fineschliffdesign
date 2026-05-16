@@ -20,7 +20,7 @@
     gap: 6px;
 }
 
-.footer-navigation ul {
+.menu-footer-container ul {
     display: flex;
     gap: 30px;
     margin: 0;
@@ -28,7 +28,7 @@
     list-style: none;
 }
 
-.footer-navigation a {
+.menu-footer-container a {
     color: rgba(255, 255, 255, 0.853);
     font-family: "Sora";
     font-weight: 300;
@@ -40,7 +40,7 @@
 }
 
 @media (hover: hover) and (pointer: fine) {
-    .footer-navigation a:hover {
+    .menu-footer-container a:hover {
         background: #d94a5b97;
         transform: scale(1.08);
     }
@@ -90,7 +90,7 @@
         text-align: center;
     }
 
-    .footer-navigation ul {
+    .menu-footer-container ul {
         flex-direction: column;
         align-items: center;
         gap: 12px;
