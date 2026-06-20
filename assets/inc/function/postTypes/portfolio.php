@@ -1,0 +1,4 @@
+<?php
+
+require_once(get_template_directory() .'/inc/functions/theme-setup.php);
+require_once(get_template_directory() .'/inc/functions/theme-setup.php);

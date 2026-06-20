@@ -3,6 +3,8 @@
 
 
 
+
+
 <section class="hero">
     <div class="wrapper wide-wrapper">
         <div class="hero-card">
@@ -13,16 +15,14 @@
             >
 
             <div class="hero-content">
-                <h1>Fineschliff Design</h1>
-                <p>Videografie, Webdesign und Grafikdesign <br> treffen hier aufeinander</p>
+                <!-- <h1>Fineschliff Design</h1> -->
+                <h1><?php the_title(); ?></h1>
+                <?php the_content(); ?>
+                <!-- <p>Videografie, Webdesign und Grafikdesign <br> treffen hier aufeinander</p> -->
             </div>
         </div>
     </div>
 </section>
-
-
-
-
 
 <section class="intro">
     <div class="wrapper normal-wrapper">
@@ -55,14 +55,10 @@
     </div>
 </section>
 
-
-
-
  <section class="about" id="about">
    
  <div class=" wrapper normal-wrapper">
     <div class="section-inner about-inner">
-
         <div class="about-image reveal-on-scroll ">
             <img 
                 src="<?php echo get_template_directory_uri(); ?>/assets/img/about.webp"
@@ -82,20 +78,10 @@
                 Mein Fokus liegt auf modernen, klaren Designs und hochwertigen
                 visuellen Inhalten, die Marken und Projekte professionell präsentieren.
             </p>
-
         </div>
     </div>
     </div>
 </section>
-
-
-
-
-
-
-
-
-
 
 <section class="portfolio">
     <div class="wrapper normal-wrapper">
@@ -108,14 +94,7 @@
             </p>
         </div>
 
-
-
-
-        
-
         <div class="portfolio-wrapper">
-
-        
 
             <article class="portfolio-item reveal-on-scroll ">
                 <div class="portfolio-image">
@@ -132,8 +111,7 @@
                 </div>
             </article>
 
-            <a 
-                href="https://youtu.be/fN8OnjiKE_I" 
+            <a href="https://youtu.be/fN8OnjiKE_I" 
                 class="portfolio-item reveal-on-scroll"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -152,13 +130,11 @@
                 </div>
             </a>
 
-
  <a 
                 href="https://3promille.de" 
                 class="portfolio-item reveal-on-scroll "
                 target="_blank"
-                rel="noopener noreferrer"
-            >
+                rel="noopener noreferrer">
                 <div class="portfolio-image">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/3promille.webp" alt="3 Promille">
                 </div>
@@ -172,63 +148,9 @@
                     </p>
                 </div>
             </a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         </div>
-
     </div>
 </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <section class="contact" id="contact">
@@ -249,11 +171,10 @@
             <p><strong>Instagram:</strong> @deinprofil</p>
             <a href="mailto:info@fineschliffdesign.de" class="contact-button">Jetzt Kontakt aufnehmen</a>
         </div>
-
     </div>
-
     </div>
 </section>
+
 
 
 

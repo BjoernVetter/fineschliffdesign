@@ -40,3 +40,4 @@ add_action('wp_enqueue_scripts', 'feinschliff_main_script');
 
 
 
+require_once get_template_directory() . '/inc/function/postTypes/portfolio.php';
